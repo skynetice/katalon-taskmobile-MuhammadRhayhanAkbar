@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suites 1,,,,13-02-2024 11:53:54,13-02-2024 11:55:35,1m - 40.691s,PASSED
+,,,,,,,
+Test Cases/TC 1 - Checkout,,,,13-02-2024 11:53:54,13-02-2024 11:54:55,1m - 0.761s,PASSED
+"startApplication(""C:\Users\skyne\Documents\1. BRI\Bootcampt\Automation\mobile\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 11:53:55,13-02-2024 11:54:20,24.697s,PASSED
+"tap(findTestObject(""Object Repository/checkout/android.widget.ImageView""), 0)",,,,13-02-2024 11:54:20,13-02-2024 11:54:27,7.025s,PASSED
+"tap(findTestObject(""checkout/android.widget.Button - ADD TO CART""), 0)",,,,13-02-2024 11:54:27,13-02-2024 11:54:28,1.037s,PASSED
+"tap(findTestObject(""Object Repository/checkout/android.widget.EditText""), 0)",,,,13-02-2024 11:54:28,13-02-2024 11:54:29,1.460s,PASSED
+"setText(findTestObject(""Object Repository/checkout/android.widget.EditText""), ""2"", 0)",,,,13-02-2024 11:54:29,13-02-2024 11:54:32,2.987s,PASSED
+"tap(findTestObject(""Object Repository/checkout/android.widget.Button - ADD""), 0)",,,,13-02-2024 11:54:32,13-02-2024 11:54:33,0.793s,PASSED
+"tap(findTestObject(""Object Repository/checkout/android.widget.ImageButton""), 0)",,,,13-02-2024 11:54:33,13-02-2024 11:54:34,0.836s,PASSED
+"tap(findTestObject(""Object Repository/checkout/android.widget.ImageButton (1)""), 0)",,,,13-02-2024 11:54:34,13-02-2024 11:54:36,1.935s,PASSED
+"tap(findTestObject(""Object Repository/checkout/android.widget.Button - CHECKOUT""), 0)",,,,13-02-2024 11:54:36,13-02-2024 11:54:37,1.446s,PASSED
+"tap(findTestObject(""checkout/android.widget.Button - PROCESS CHECKOUT""), 0)",,,,13-02-2024 11:54:37,13-02-2024 11:54:41,3.494s,PASSED
+"tap(findTestObject(""checkout/android.widget.Button - YES""), 0)",,,,13-02-2024 11:54:41,13-02-2024 11:54:43,2.159s,PASSED
+"tap(findTestObject(""checkout/android.widget.Button - OK (1)""), 0)",,,,13-02-2024 11:54:43,13-02-2024 11:54:52,9.040s,PASSED
+closeApplication(),,,,13-02-2024 11:54:52,13-02-2024 11:54:53,1.332s,PASSED
+Video,,,,13-02-2024 11:54:55,13-02-2024 11:54:55,0.001s,PASSED
+,,,,,,,
+Test Cases/TC 2 - Change Username,,,,13-02-2024 11:54:55,13-02-2024 11:55:35,39.764s,PASSED
+"startApplication(""C:\Users\skyne\Documents\1. BRI\Bootcampt\Automation\mobile\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 11:54:55,13-02-2024 11:55:15,19.306s,PASSED
+"tap(findTestObject(""Object Repository/Change Username/android.widget.FrameLayout""), 0)",,,,13-02-2024 11:55:15,13-02-2024 11:55:20,5.102s,PASSED
+"tap(findTestObject(""Object Repository/Change Username/android.widget.FrameLayout (1)""), 0)",,,,13-02-2024 11:55:20,13-02-2024 11:55:21,1.311s,PASSED
+"tap(findTestObject(""Object Repository/Change Username/android.widget.RelativeLayout""), 0)",,,,13-02-2024 11:55:21,13-02-2024 11:55:25,3.654s,PASSED
+"setText(findTestObject(""Object Repository/Change Username/android.widget.EditText - Rhayhan""), ""Budi"", 0)",,,,13-02-2024 11:55:25,13-02-2024 11:55:27,2.352s,PASSED
+"tap(findTestObject(""Object Repository/Change Username/android.widget.Button - OK""), 0)",,,,13-02-2024 11:55:27,13-02-2024 11:55:28,0.990s,PASSED
+"tap(findTestObject(""Object Repository/Change Username/android.widget.ImageButton""), 0)",,,,13-02-2024 11:55:28,13-02-2024 11:55:29,1.141s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Change Username/android.widget.TextView - Budi""), ""Budi"")",,,,13-02-2024 11:55:29,13-02-2024 11:55:31,1.817s,PASSED
+closeApplication(),,,,13-02-2024 11:55:31,13-02-2024 11:55:33,2.000s,PASSED
+Video,,,,13-02-2024 11:55:35,13-02-2024 11:55:35,0.000s,PASSED
