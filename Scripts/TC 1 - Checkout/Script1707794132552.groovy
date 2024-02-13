@@ -40,5 +40,7 @@ Mobile.tap(findTestObject('checkout/android.widget.Button - PROCESS CHECKOUT'), 
 
 Mobile.tap(findTestObject('checkout/android.widget.Button - YES'), 0)
 
+Mobile.tap(findTestObject('checkout/android.widget.Button - OK (1)'), 0)
+
 Mobile.closeApplication()
 
