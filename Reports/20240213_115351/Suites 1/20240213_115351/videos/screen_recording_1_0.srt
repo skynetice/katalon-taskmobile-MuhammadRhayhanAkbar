@@ -1,0 +1,52 @@
+1
+00:00:00,173 --> 00:00:24,874
+1. startApplication("C:\Users\skyne\Documents\1. BRI\Bootcampt\Automation\mobile\Solodroid_E-CommerceApp Demo_3.2.0.apk", true)
+
+2
+00:00:24,878 --> 00:00:31,904
+5. tap(findTestObject("Object Repository/checkout/android.widget.ImageView"), 0)
+
+3
+00:00:31,904 --> 00:00:32,942
+9. tap(findTestObject("checkout/android.widget.Button - ADD TO CART"), 0)
+
+4
+00:00:32,943 --> 00:00:34,402
+13. tap(findTestObject("Object Repository/checkout/android.widget.EditText"), 0)
+
+5
+00:00:34,403 --> 00:00:37,389
+17. setText(findTestObject("Object Repository/checkout/android.widget.EditText"), "2", 0)
+
+6
+00:00:37,390 --> 00:00:38,183
+21. tap(findTestObject("Object Repository/checkout/android.widget.Button - ADD"), 0)
+
+7
+00:00:38,183 --> 00:00:39,019
+25. tap(findTestObject("Object Repository/checkout/android.widget.ImageButton"), 0)
+
+8
+00:00:39,020 --> 00:00:40,956
+29. tap(findTestObject("Object Repository/checkout/android.widget.ImageButton (1)"), 0)
+
+9
+00:00:40,956 --> 00:00:42,402
+33. tap(findTestObject("Object Repository/checkout/android.widget.Button - CHECKOUT"), 0)
+
+10
+00:00:42,402 --> 00:00:45,897
+37. tap(findTestObject("checkout/android.widget.Button - PROCESS CHECKOUT"), 0)
+
+11
+00:00:45,898 --> 00:00:48,057
+41. tap(findTestObject("checkout/android.widget.Button - YES"), 0)
+
+12
+00:00:48,058 --> 00:00:57,097
+45. tap(findTestObject("checkout/android.widget.Button - OK (1)"), 0)
+
+13
+00:00:57,097 --> 00:00:58,430
+49. closeApplication()
+

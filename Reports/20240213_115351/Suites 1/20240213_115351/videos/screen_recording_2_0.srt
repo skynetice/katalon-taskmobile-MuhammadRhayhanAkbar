@@ -1,0 +1,36 @@
+1
+00:00:00,031 --> 00:00:19,337
+1. startApplication("C:\Users\skyne\Documents\1. BRI\Bootcampt\Automation\mobile\Solodroid_E-CommerceApp Demo_3.2.0.apk", true)
+
+2
+00:00:19,337 --> 00:00:24,447
+5. tap(findTestObject("Object Repository/Change Username/android.widget.FrameLayout"), 0)
+
+3
+00:00:24,448 --> 00:00:25,761
+9. tap(findTestObject("Object Repository/Change Username/android.widget.FrameLayout (1)"), 0)
+
+4
+00:00:25,761 --> 00:00:29,416
+13. tap(findTestObject("Object Repository/Change Username/android.widget.RelativeLayout"), 0)
+
+5
+00:00:29,416 --> 00:00:31,768
+17. setText(findTestObject("Object Repository/Change Username/android.widget.EditText - Rhayhan"), "Budi", 0)
+
+6
+00:00:31,769 --> 00:00:32,758
+21. tap(findTestObject("Object Repository/Change Username/android.widget.Button - OK"), 0)
+
+7
+00:00:32,758 --> 00:00:33,899
+25. tap(findTestObject("Object Repository/Change Username/android.widget.ImageButton"), 0)
+
+8
+00:00:33,899 --> 00:00:35,718
+29. verifyElementText(findTestObject("Object Repository/Change Username/android.widget.TextView - Budi"), "Budi")
+
+9
+00:00:35,719 --> 00:00:37,722
+33. closeApplication()
+

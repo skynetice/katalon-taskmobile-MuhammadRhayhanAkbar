@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suites 1" time="100.691" tests="2" failures="0" errors="0">
+   <testsuite name="Suites 1" tests="2" failures="0" errors="0" time="100.691" skipped="0" timestamp="13-02-2024T11:53:54" hostname="skyne - SKYNETICJ-0VA" id="Test Suites/Suites 1">
+      <properties>
+         <property name="deviceName" value="realme RMX3572 (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\skyne\\git\\katalon-taskmobile-MuhammadRhayhanAkbar\\Reports\\20240213_115351\\Suites 1\\20240213_115351"/>
+         <property name="logFiles" value="C:\\Users\\skyne\\git\\katalon-taskmobile-MuhammadRhayhanAkbar\\Reports\\20240213_115351\\Suites 1\\20240213_115351\\appium.log, C:\\Users\\skyne\\git\\katalon-taskmobile-MuhammadRhayhanAkbar\\Reports\\20240213_115351\\Suites 1\\20240213_115351\\appium_error.log, C:\\Users\\skyne\\git\\katalon-taskmobile-MuhammadRhayhanAkbar\\Reports\\20240213_115351\\Suites 1\\20240213_115351\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="skyne - SKYNETICJ-0VA"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.0&quot;}}}"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.0"/>
+         <property name="deviceModel" value="RMX3572"/>
+         <property name="hostAddress" value="172.16.213.219"/>
+         <property name="deviceManufacturer" value="realme"/>
+         <property name="deviceId" value="DQROLNJZNNVKEUDI"/>
+         <property name="deviceName" value="realme RMX3572 (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/TC 1 - Checkout" time="60.761" classname="Test Cases/TC 1 - Checkout" status="PASSED">
+         <system-out><![CDATA[13-02-2024T11:53:54 - [TEST_CASE][PASSED] - Test Cases/TC 1 - Checkout: Test Cases/TC 1 - Checkout
+
+13-02-2024T11:53:55 - [TEST_STEP][PASSED] - startApplication("C:\Users\skyne\Documents\1. BRI\Bootcampt\Automation\mobile\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\skyne\Documents\1. BRI\Bootcampt\Automation\mobile\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:53:55 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T11:54:01 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T11:54:01 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\skyne\.appium
+
+13-02-2024T11:54:01 - [MESSAGE][INFO] - appium outlog: C:\Users\skyne\git\katalon-taskmobile-MuhammadRhayhanAkbar\Reports\20240213_115351\Suites 1\20240213_115351\appium.log
+
+13-02-2024T11:54:01 - [MESSAGE][INFO] - appium errlog: C:\Users\skyne\git\katalon-taskmobile-MuhammadRhayhanAkbar\Reports\20240213_115351\Suites 1\20240213_115351\appium_error.log
+
+13-02-2024T11:54:03 - [MESSAGE][INFO] - Appium server started on port 9,029
+
+13-02-2024T11:54:20 - [MESSAGE][PASSED] - Started app at: 'C:\Users\skyne\Documents\1. BRI\Bootcampt\Automation\mobile\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:54:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout/android.widget.ImageView"), 0): Tapped on element 'Object Repository/checkout/android.widget.ImageView'
+
+13-02-2024T11:54:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:54:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.ImageView'
+
+13-02-2024T11:54:27 - [TEST_STEP][PASSED] - tap(findTestObject("checkout/android.widget.Button - ADD TO CART"), 0): Tapped on element 'Object Repository/checkout/android.widget.Button - ADD TO CART'
+
+13-02-2024T11:54:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:54:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.Button - ADD TO CART'
+
+13-02-2024T11:54:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout/android.widget.EditText"), 0): Tapped on element 'Object Repository/checkout/android.widget.EditText'
+
+13-02-2024T11:54:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:54:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.EditText'
+
+13-02-2024T11:54:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/checkout/android.widget.EditText"), "2", 0): Text '2' has been set to element 'Object Repository/checkout/android.widget.EditText'
+
+13-02-2024T11:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:54:32 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/checkout/android.widget.EditText'
+
+13-02-2024T11:54:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout/android.widget.Button - ADD"), 0): Tapped on element 'Object Repository/checkout/android.widget.Button - ADD'
+
+13-02-2024T11:54:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:54:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.Button - ADD'
+
+13-02-2024T11:54:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/checkout/android.widget.ImageButton'
+
+13-02-2024T11:54:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:54:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.ImageButton'
+
+13-02-2024T11:54:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/checkout/android.widget.ImageButton (1)'
+
+13-02-2024T11:54:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:54:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.ImageButton (1)'
+
+13-02-2024T11:54:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout/android.widget.Button - CHECKOUT"), 0): Tapped on element 'Object Repository/checkout/android.widget.Button - CHECKOUT'
+
+13-02-2024T11:54:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:54:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.Button - CHECKOUT'
+
+13-02-2024T11:54:37 - [TEST_STEP][PASSED] - tap(findTestObject("checkout/android.widget.Button - PROCESS CHECKOUT"), 0): Tapped on element 'Object Repository/checkout/android.widget.Button - PROCESS CHECKOUT'
+
+13-02-2024T11:54:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:54:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.Button - PROCESS CHECKOUT'
+
+13-02-2024T11:54:41 - [TEST_STEP][PASSED] - tap(findTestObject("checkout/android.widget.Button - YES"), 0): Tapped on element 'Object Repository/checkout/android.widget.Button - YES'
+
+13-02-2024T11:54:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:54:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.Button - YES'
+
+13-02-2024T11:54:43 - [TEST_STEP][PASSED] - tap(findTestObject("checkout/android.widget.Button - OK (1)"), 0): Tapped on element 'Object Repository/checkout/android.widget.Button - OK (1)'
+
+13-02-2024T11:54:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:54:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout/android.widget.Button - OK (1)'
+
+13-02-2024T11:54:52 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T11:54:53 - [MESSAGE][PASSED] - Close app successfully
+
+13-02-2024T11:54:55 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC 1 - Checkout' .
+
+13-02-2024T11:54:55 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC 1 - Checkout' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC 2 - Change Username" time="39.764" classname="Test Cases/TC 2 - Change Username" status="PASSED">
+         <system-out><![CDATA[13-02-2024T11:54:55 - [TEST_CASE][PASSED] - Test Cases/TC 2 - Change Username: Test Cases/TC 2 - Change Username
+
+13-02-2024T11:54:55 - [TEST_STEP][PASSED] - startApplication("C:\Users\skyne\Documents\1. BRI\Bootcampt\Automation\mobile\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\skyne\Documents\1. BRI\Bootcampt\Automation\mobile\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:54:55 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T11:55:01 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T11:55:01 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\skyne\.appium
+
+13-02-2024T11:55:01 - [MESSAGE][INFO] - appium outlog: C:\Users\skyne\git\katalon-taskmobile-MuhammadRhayhanAkbar\Reports\20240213_115351\Suites 1\20240213_115351\appium.log
+
+13-02-2024T11:55:01 - [MESSAGE][INFO] - appium errlog: C:\Users\skyne\git\katalon-taskmobile-MuhammadRhayhanAkbar\Reports\20240213_115351\Suites 1\20240213_115351\appium_error.log
+
+13-02-2024T11:55:03 - [MESSAGE][INFO] - Appium server started on port 9,281
+
+13-02-2024T11:55:15 - [MESSAGE][PASSED] - Started app at: 'C:\Users\skyne\Documents\1. BRI\Bootcampt\Automation\mobile\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:55:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Change Username/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Change Username/android.widget.FrameLayout'
+
+13-02-2024T11:55:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:55:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Change Username/android.widget.FrameLayout'
+
+13-02-2024T11:55:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Change Username/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Change Username/android.widget.FrameLayout (1)'
+
+13-02-2024T11:55:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:55:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Change Username/android.widget.FrameLayout (1)'
+
+13-02-2024T11:55:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Change Username/android.widget.RelativeLayout"), 0): Tapped on element 'Object Repository/Change Username/android.widget.RelativeLayout'
+
+13-02-2024T11:55:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:55:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Change Username/android.widget.RelativeLayout'
+
+13-02-2024T11:55:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Change Username/android.widget.EditText - Rhayhan"), "Budi", 0): Text 'Budi' has been set to element 'Object Repository/Change Username/android.widget.EditText - Rhayhan'
+
+13-02-2024T11:55:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:55:27 - [MESSAGE][PASSED] - Text 'Budi' has been set to element 'Object Repository/Change Username/android.widget.EditText - Rhayhan'
+
+13-02-2024T11:55:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Change Username/android.widget.Button - OK"), 0): Tapped on element 'Object Repository/Change Username/android.widget.Button - OK'
+
+13-02-2024T11:55:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:55:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Change Username/android.widget.Button - OK'
+
+13-02-2024T11:55:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Change Username/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Change Username/android.widget.ImageButton'
+
+13-02-2024T11:55:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:55:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Change Username/android.widget.ImageButton'
+
+13-02-2024T11:55:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Change Username/android.widget.TextView - Budi"), "Budi"): Actual text and expected text of test object 'Object Repository/Change Username/android.widget.TextView - Budi' are matched.
+
+13-02-2024T11:55:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Change Username/android.widget.TextView - Budi' are matched.
+
+13-02-2024T11:55:31 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T11:55:33 - [MESSAGE][PASSED] - Close app successfully
+
+13-02-2024T11:55:35 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC 2 - Change Username' .
+
+13-02-2024T11:55:35 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC 2 - Change Username' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T11:53:54 - [TEST_SUITE][PASSED] - Suites 1: Test Cases/TC 2 - Change Username]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
